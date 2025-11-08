@@ -6,12 +6,22 @@
         "${workspaceFolder}/**"
       ],
       "compilerPath": "C:/Program Files/mingw-w64/bin/gcc.exe",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
+      "cStandard": "c17",
+      "cppStandard": "c++23",
       "intelliSenseMode": "windows-gcc-x64",
       "compilerArgs": [
         ""
       ]
+    },
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "/usr/bin/clang++",
+      "cStandard": "c17",
+      "cppStandard": "c++23",
+      "intelliSenseMode": "macos-clang-arm64"
     }
   ],
   "version": 4
