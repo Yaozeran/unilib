@@ -3,10 +3,5 @@
 
 #include <string>
 
-class Encoder
-{
- public:
-  inline constexpr std::string encode() {}
-};
 
 #endif 
