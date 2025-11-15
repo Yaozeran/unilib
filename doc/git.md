@@ -1,4 +1,19 @@
 # Git Cheat Sheet
 
-initiate git 
+
+### Command Line Argument
+
+
+1. initiate git 
+```
+git init
+```
+
+2. rename current branch
+```
+
+```
+
+---
+
 
