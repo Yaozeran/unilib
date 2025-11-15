@@ -46,8 +46,20 @@ optional code language specifier
 ---
 Links
 
+website  
 [texts](its link) -> [Google](www.google.com)
 
+ref-style hyperlink  
+[web1][1]
+[1]: www.google.com
+
+path file (unavailable, for demo only)
+![file](path)
+
+ref  
+para[^1]
+
+[^1]: attributed by name
 
 ---
 List
