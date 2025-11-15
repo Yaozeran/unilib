@@ -1,7 +1,6 @@
-#ifndef UNILIB_CLIB_CRYPTO_DES_H
-#define UNILIB_CLIB_CRYPTO_DES_H
+#ifndef UNILIB_CLIB_CRYPTO_BLOCK_H
+#define UNILIB_CLIB_CRYPTO_BLOCK_H
 
-#include <string>
 
 /**
  * Data encrytion standard (DES) implementation
