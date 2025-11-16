@@ -26,7 +26,9 @@ Latex math environment
 
 $a + b^{2\pi}$ 
 
-the mathblock$$ a+b $$
+the mathblock
+
+$$a+b$$
 
 ---
 > A quote?
