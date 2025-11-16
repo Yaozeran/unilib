@@ -11,14 +11,20 @@ Chapter 1. Divisibility
 -----------------------
 
 **Thm 1.** if $a,b \in\mathbb{Z}$ and $b>0$, then $\exists$ unique pair $(q,r)$
-s.t.  
+s.t.
+
 $$a=qb+r\quad 0\leq r<b $$
+
 (page 1, [Elementary number theory](textbooks/numthms.pdf))
 
 Then we define, $q$ the quotient, $r$ the remainder. When $b$ divides $a$, we denote $b\mid a$. (other def: not divide $\nmid$, factor, multiple, etc.)
 
-**Coro 2.** with above, $b\neq0$ then  
-$$a=qb+r\quad 0\leq r<|b|$$ when $b<0$  
+**Coro 2.** with above, $b\neq0$ then 
+
+$$a=qb+r\quad 0\leq r<|b|$$
+
+when $b<0$  
+
 $$\frac{a}{b}=q+\frac{r}{b}\quad 0\geq\frac{r}{b}>1\quad q=\lceil a/b\rceil$$
 
 **Some Props**  
