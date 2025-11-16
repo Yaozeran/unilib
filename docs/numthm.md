@@ -58,9 +58,11 @@ $$a=q_1b+r_1$$
 repeat and use lemma 4, we have  
 
 $$b=q_2r_1+r_2\quad r_1=q_3r_2+r_3$$
+
 finally
 
 $$r_{n-3}=q_{n-1}r_{n-2}+r_{n-1}\quad r_{n-2}=q_nr_{n-1}+r_n\quad r_n=0$$
+
 now $d=r_{n-1}$ 
 
 (page 6, [Elementary number theory](textbooks/numthms.pdf))
@@ -79,4 +81,34 @@ Define co-prime $a,b$ if $gcd(a,b)=1$, generally, $a_1,...,a_n$ are mutually co-
 
 (page 10, [Elementary number theory](textbooks/numthms.pdf))
 
-**Coro 10.** 
+**Coro 10.** if $gcd(a,b)=d$ then 
+
+$$\forall m>0.\quad gcd(ma, mb)=md\quad gcd(\frac{a}{d},\frac{b}{d})=1$$
+
+**Coro 11.** $a,b$ co-prime
+1. if $a\mid c$ and $b\mid c$, then $ab\mid c$
+2. if $a\mid bc$, then $a\mid c$
+
+(page 11, [Elementary number theory](textbooks/numthms.pdf))
+
+Define $l=lcm(a,b)$ if 
+1. $a\mid l$ and $b\mid l$
+2. if $a\mid c$ and $b\mid c$, then $l\leq c$
+
+**Thm 12.** if $a,b>0\in\mathbb{Z}$, $d=gcd(a,b),l=lcm(a,b)$ then
+
+$$ dl=ab $$
+
+(page 12, [Elementary number theory](textbooks/numthms.pdf))
+
+Linear Diophantine equaions
+
+Chapter 2. Primes
+-----------------
+
+Define $p>1\in\mathbb{Z}$ is prime iff only positive divisors are $p$ and $1$.
+
+**Lemma 1.** let $p$ prime, $a,b$ any integers
+1. either $p\mid a$ or $p,a$ co-primes
+2. if $p\mid ab$, then $p\mid a$ or $p\mid b$
+
