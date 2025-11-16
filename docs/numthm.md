@@ -182,3 +182,4 @@ has a solution iff $d\mid b$; if $d\mid b$, and $x_0$ any solution, then general
 
 $$x=x_0+\frac{nt}{b}\quad t\in\mathbb{Z}$$
 
+the solution form exactly $d$ congruence classes $\mod(n)$, 
