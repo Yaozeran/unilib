@@ -112,3 +112,22 @@ Define $p>1\in\mathbb{Z}$ is prime iff only positive divisors are $p$ and $1$.
 1. either $p\mid a$ or $p,a$ co-primes
 2. if $p\mid ab$, then $p\mid a$ or $p\mid b$
 
+**Coro 2.** if $p$ prime, $p\mid a_1\cdots a_n$, then $p$ divides some $a_i$
+
+**Thm 3. (Fundamental theorem of arithmetic)** each integer $n>1$ has a unique prime-power factorization
+
+$$n=p_1^{e_1}\cdots p_n^{e_n}\quad e_i\in\mathbb{Z}$$
+
+**Lemma 11.** if $2^m+1$ is prime, then $m=2^n$ for some $n\geq0\in\mathbb{Z}$.
+
+(page 30, [Elementary number theory](textbooks/numthms.pdf))
+
+Numbers of form $F_n=2^{2^n}+1$ are called Fermat numbers, those primes are called Fermat primes.
+
+**Lemma 14.** an integer $n>1$ is composite iff it is divisible by some prime $p\leq\sqrt{n}$.
+
+(page 30, [Elementary number theory](textbooks/numthms.pdf))
+
+Chapter 3. Congruence
+---------------------
+
