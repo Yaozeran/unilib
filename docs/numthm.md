@@ -5,21 +5,21 @@ layout: default
 Elementary Number Theory Note
 =============================
 
-Author: ZrLnY
+Author: Yao Zeran
 
 Chapter 1. Divisibility
 -----------------------
 
 **Thm 1.** if $a,b \in\mathbb{Z}$ and $b>0$, then $\exists$ unique pair $(q,r)$
-s.t. 
-
+s.t.  
 $$a=qb+r\quad 0\leq r<b $$
-
 (page 1, [Elementary number theory](textbooks/numthms.pdf))
 
 Then we define, $q$ the quotient, $r$ the remainder. When $b$ divides $a$, we denote $b\mid a$. (other def: not divide $\nmid$, factor, multiple, etc.)
 
-**Coro 2.** with above, $b\neq0$ then $$a=qb+r\quad 0\leq r<|b|$$ when $b<0$ $$\frac{a}{b}=q+\frac{r}{b}\quad 0\geq\frac{r}{b}>1\quad q=\lceil a/b\rceil$$
+**Coro 2.** with above, $b\neq0$ then  
+$$a=qb+r\quad 0\leq r<|b|$$ when $b<0$  
+$$\frac{a}{b}=q+\frac{r}{b}\quad 0\geq\frac{r}{b}>1\quad q=\lceil a/b\rceil$$
 
 **Some Props**  
 1. if $a\mid b$ and $b\mid c$, then $a\mid c$
@@ -37,17 +37,25 @@ Define $d=gcd(a,b)$ as
 1. $d\mid a$ and $d\mid b$
 2. if $c\mid a$ and $c\mid b$, then $c\leq d$
 
-**Coro 4.** if $c\mid a$ and $c\mid b$, then $$\forall u,v\in\mathbb{Z}.\quad c\mid ua+vb$$
+**Coro 4.** if $c\mid a$ and $c\mid b$, then  
+$$\forall u,v\in\mathbb{Z}.\quad c\mid ua+vb$$
 
-**Lemma 5.** if $a=qb+r$, then $gcd(a,b)=gcd(b,r)$
-
+**Lemma 5.** if $a=qb+r$, then $gcd(a,b)=gcd(b,r)$  
 (page 5, [Elementary number theory](textbooks/numthms.pdf))
 
-**Thm 6. (Euclid division algorithm)** let $d=gcd(a,b)$, note $$gcd(a,b)=gcd(-a,b)$$ and assume $a>b$ then $$a=q_1b+r_1$$ repeat and use lemma 4, we have $$b=q_2r_1+r_2\quad r_1=q_3r_2+r_3$$ finally $$r_{n-3}=q_{n-1}r_{n-2}+r_{n-1}\quad r_{n-2}=q_nr_{n-1}+r_n\quad r_n=0$$ now $d=r_{n-1}$
-
+**Thm 6. (Euclid division algorithm)** let $d=gcd(a,b)$, note  
+$$gcd(a,b)=gcd(-a,b)$$
+and assume $a>b$ then  
+$$a=q_1b+r_1$$
+repeat and use lemma 4, we have  
+$$b=q_2r_1+r_2\quad r_1=q_3r_2+r_3$$
+finally  
+$$r_{n-3}=q_{n-1}r_{n-2}+r_{n-1}\quad r_{n-2}=q_nr_{n-1}+r_n\quad r_n=0$$
+now $d=r_{n-1}$  
 (page 6, [Elementary number theory](textbooks/numthms.pdf))
 
-**Thm 7. (Bezout's identity)** if $a,b\neq0\in\mathbb{Z}$, then $\exists u,v\in\mathbb{Z}$ s.t. $$gcd(a,b)=ua+bv$$
+**Thm 7. (Bezout's identity)** if $a,b\neq0\in\mathbb{Z}$, then $\exists u,v\in\mathbb{Z}$ s.t.  
+$$gcd(a,b)=ua+bv$$
 
 then we discuss the set of all these gcd
 
