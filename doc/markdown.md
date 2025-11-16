@@ -26,6 +26,7 @@ Latex math environment
 
 $a + b^{2\pi}$ 
 
+$$ math blocks $$
 
 ---
 > A quote?
