@@ -131,3 +131,54 @@ Numbers of form $F_n=2^{2^n}+1$ are called Fermat numbers, those primes are call
 Chapter 3. Congruence
 ---------------------
 
+Let $n>0\in\mathbb{Z}$ and $a,b\in\mathbb{Z}$, define $a$ is congruent to $b\mod(n)$ or $a$ is a residue of $b\mod(n)$, written 
+
+$$ a\equiv b\mod(n) $$
+
+if $a,b$ leaves same reminder if divided by $n$, may simply use $a\equiv b$.
+
+**Lemma 1.** for any $n\geq 1$, we have $a\equiv b\mod(n)$ iff $n\mid (a-b)$.
+
+**Lemma 2.** for fixed $n\geq 1$
+1. $a\equiv a$
+2. if $a\equiv b$, then $b\equiv a$
+3. if $a\equiv b$, $b\equiv c$, then $a\equiv c$
+
+(page 39, [Elementary number theory](textbooks/numthms.pdf))
+
+Congruence classes are 
+
+$$[a] = \{b\in\mathbb{Z} \mid a\equiv b\mod(n)\}\quad a\in\mathbb{Z} $$
+
+for given $n\geq 1$, denote set of $n$ equivalent classes $\mod(n)$ by $\mathbb{Z}_n$.
+
+**Lemma 3.** for given $n\geq 1$, if $a'\equiv a$, $b'\equiv b$, then 
+
+$$ a'+b'\equiv a+b\quad a'-b'\equiv a-b\quad a'b'\equiv ab $$
+
+(page 41, [Elementary number theory](textbooks/numthms.pdf))
+
+Complete set of residues $\mod{n}$, least non-negative residues, least abs residues, etc.
+
+**Thm 4.** let $n$ have prime-power factorization
+
+$$n=p_1^{e_1}\cdots p_n^{e_n}\quad e_i\in\mathbb{Z}$$
+
+then for any $a,b\in\mathbb{Z}$, we have $a\equiv b\mod(n)$ iff $a\equiv b\mod(p_i^{e_i}) $ for each $i$.
+
+**Lemma 5.** let $f(x)$ be a polynomial, $n\geq1$, if $a\equiv b$ then $f(a)=f(b)\mod(n)$.
+
+(page 44, [Elementary number theory](textbooks/numthms.pdf))
+
+**Thm 6.** there is no non-const polynomial $f(x)$ with integer coefficients s.t. $f(x)$ is prime for all integer $x$.
+
+(page 46, [Elementary number theory](textbooks/numthms.pdf))
+
+**Thm 7.** if $d=gcd(a,b)$, then the linear congruence 
+
+$$ ax\equiv b\mod{n} $$
+
+has a solution iff $d\mid b$; if $d\mid b$, and $x_0$ any solution, then general solution is
+
+$$x=x_0+\frac{nt}{b}\quad t\in\mathbb{Z}$$
+
