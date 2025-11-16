@@ -1,9 +1,3 @@
----
-layout: default
-title: Elementary Number Theory Note
----
-
-
 Elementary Number Theory Note
 =============================
 
@@ -13,8 +7,7 @@ Chapter 1. Divisibility
 -----------------------
 
 **Thm 1.** if $a,b \in\mathbb{Z}$ and $b>0$, then $\exists$ unique pair $(q,r)$
-s.t. \[block\]
-$$a=qb+r\quad 0\leq r<b $$
+s.t. $$a=qb+r\quad 0\leq r<b $$
 
 (page 1, [Elementary number theory](textbooks/numthms.pdf))
 
@@ -30,7 +23,7 @@ Then we define, $q$ the quotient, $r$ the remainder. When $b$ divides $a$, we de
 
 **Thm 3.** 
 1. if $c$ divides $a_1,...,a_n$, then $c$ divides $a_1u_1+...+a_nu_n$ for all $u_1,u_n\in\mathbb{Z}$
-2. $a\mid b$ and $b\mid a$ iff $b=\pm a$
+2. $a\mid b$ and $b\mid a$ iff $b=\pm a$.
 
 (page 4, [Elementary number theory](textbooks/numthms.pdf))
 
