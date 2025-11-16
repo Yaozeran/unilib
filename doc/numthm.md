@@ -1,5 +1,11 @@
-Elementary Number Theory
-========================
+---
+layout: default
+title: Elementary Number Theory Note
+---
+
+
+Elementary Number Theory Note
+=============================
 
 Author: ZrLnY
 
