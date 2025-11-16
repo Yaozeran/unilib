@@ -1,7 +1,3 @@
----
-layout: default
----
-
 Elementary Number Theory Note
 =============================
 
@@ -43,24 +39,34 @@ Define $d=gcd(a,b)$ as
 1. $d\mid a$ and $d\mid b$
 2. if $c\mid a$ and $c\mid b$, then $c\leq d$
 
-**Coro 4.** if $c\mid a$ and $c\mid b$, then  
+**Coro 4.** if $c\mid a$ and $c\mid b$, then
+
 $$\forall u,v\in\mathbb{Z}.\quad c\mid ua+vb$$
 
 **Lemma 5.** if $a=qb+r$, then $gcd(a,b)=gcd(b,r)$  
+
 (page 5, [Elementary number theory](textbooks/numthms.pdf))
 
-**Thm 6. (Euclid division algorithm)** let $d=gcd(a,b)$, note  
+**Thm 6. (Euclid division algorithm)** let $d=gcd(a,b)$, note
+
 $$gcd(a,b)=gcd(-a,b)$$
+
 and assume $a>b$ then  
+
 $$a=q_1b+r_1$$
+
 repeat and use lemma 4, we have  
+
 $$b=q_2r_1+r_2\quad r_1=q_3r_2+r_3$$
-finally  
+finally
+
 $$r_{n-3}=q_{n-1}r_{n-2}+r_{n-1}\quad r_{n-2}=q_nr_{n-1}+r_n\quad r_n=0$$
-now $d=r_{n-1}$  
+now $d=r_{n-1}$ 
+
 (page 6, [Elementary number theory](textbooks/numthms.pdf))
 
-**Thm 7. (Bezout's identity)** if $a,b\neq0\in\mathbb{Z}$, then $\exists u,v\in\mathbb{Z}$ s.t.  
+**Thm 7. (Bezout's identity)** if $a,b\neq0\in\mathbb{Z}$, then $\exists u,v\in\mathbb{Z}$ s.t.
+
 $$gcd(a,b)=ua+bv$$
 
 then we discuss the set of all these gcd
