@@ -7,7 +7,10 @@ Chapter 1. Divisibility
 -----------------------
 
 **Thm 1.** if $a,b \in\mathbb{Z}$ and $b>0$, then $\exists$ unique pair $(q,r)$
-s.t. $$a=qb+r\quad 0\leq r<b$$
+s.t. 
+\[
+a=qb+r\quad 0\leq r<b 
+\]
 
 (page 1, [Elementary number theory](textbooks/numthms.pdf))
 
@@ -46,8 +49,6 @@ Define $d=gcd(a,b)$ as
 then we discuss the set of all these gcd
 
 **Thm 8.** let $a,b\neq0\in\mathbb{Z}$, $d=gcd(a,b)$ then $c\in\mathbb{Z}$ has the form $c=ax+by$ for some $x,y\in\mathbb{Z}$ iff $c$ is a multiple of $d$, and $d$ is the least positive integer of that form.
-
-
 
 Define co-prime $a,b$ if $gcd(a,b)=1$, generally, $a_1,...,a_n$ are mutually co-prime if $gcd(a_i,a_j)$ when $i\neq j$.
 
