@@ -8,10 +8,14 @@ A lightweight collection of reusable components, utilities, and small demo modul
 This repository serves as a personal learning playground.
 It includes:
 
-Small tools to support blockchain development
-Implementations of key cryptographic primitives
-Simple demos for exploring decentralized systems concepts
-Reusable helper functions and utility scripts
-The goal is to `accumulate useful code fragments` and `solidify understanding through hands-on practice`.
+1. Small tools to support blockchain development
+
+2. Implementations of key cryptographic primitives
+
+3. Simple demos for exploring decentralized systems concepts
+
+4. Reusable helper functions and utility scripts
+
+The goal is to *accumulate useful code fragments* and *solidify understanding through hands-on practice*.
 
 ## Content Structure

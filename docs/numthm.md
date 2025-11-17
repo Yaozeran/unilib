@@ -158,6 +158,8 @@ $$ a'+b'\equiv a+b\quad a'-b'\equiv a-b\quad a'b'\equiv ab $$
 
 (page 41, [Elementary number theory](textbooks/numthms.pdf))
 
+From this, we see the addition, product, and power are well-defined.
+
 Complete set of residues $\mod{n}$, least non-negative residues, least abs residues, etc.
 
 **Thm 4.** let $n$ have prime-power factorization
