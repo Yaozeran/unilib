@@ -130,3 +130,11 @@ Merge Conflicts in the Feature Branch Workflow
   git push origin feature4
   ```
    5. Now the pull request should be ready to merge again.
+
+Remove file on git track
+------------------------
+
+```
+git rm --cached -r $(git ls-files | grep .DS_Store)
+git commit -m "Remove all DS_Store files from repo"
+```
