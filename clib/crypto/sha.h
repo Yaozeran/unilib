@@ -3,5 +3,10 @@
 
 #include <string>
 
+class SecureHashAlgo3
+{
+ public:
 
-#endif 
+};
+
+#endif
